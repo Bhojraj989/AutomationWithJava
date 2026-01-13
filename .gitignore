@@ -3,6 +3,8 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+!**/src/AutomationWithJava.iml
+
 
 ### Eclipse ###
 .apt_generated
@@ -27,4 +29,17 @@ bin/
 .vscode/
 
 ### Mac OS ###
+.DS_Store
+
+# IntelliJ files
+.idea/
+*.iml
+
+# Compiled files
+target/
+
+# Libraries
+lib/
+
+# OS files
 .DS_Store

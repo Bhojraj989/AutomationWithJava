@@ -13,7 +13,6 @@ public class FirstScript {
         WebDriver driver=new ChromeDriver();
         //Step 3 - Opening browser and going to target URL.
         driver.navigate().to("https://trello.com/");
-
         //Step 4 - Closing webdriver/session
         driver.quit();
 
